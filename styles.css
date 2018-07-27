@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin :0 15%;
+  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.botton_1 ,.botton_2{
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  background: #DEF4FF;
+  font-size: 12px;
+}
+.botton_1:active,.botton_2:active{
+  color: white;
+  background: #3388F8;
+}
+.botton_1{
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px
+}
+.botton_2{
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px
+}
+.container{
+  margin: auto;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+.galeria{
+  margin-top:10px;
+  pargin-botton:5%;
+  padding: 5px;
+  max-width: 15.40%;
+  display: inline;
+  float: left;
+  border: 1.5px solid gray;
+  margin-right: 4px;
+}
+.galeriaa{
+  margin-top:10px;
+  pargin-botton:5%;
+  padding: 5px;
+  max-width: 15.40%;
+  display: inline;
+  float: left;
+  border: 1.5px solid gray;
+}
+.galeria1,.galeria2,.galeria3{
+  margin-top:10px;
+  pargin-botton:10%;
+  padding: 5px;
+  max-width: 29%;
+  display: inline;
+  float: left;
+  border: 1.5px solid gray;
+  
+}
+.galeria1{
+  margin-right: 5%;
+}
+.galeria2{
+  margin-right: 5%;
+}
+.hotel{
+  width: 100%;
+
+}
+.hoteles{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.info{
+  margin: 12px 0px;
+}
+.jaco{
+  width: 100%;
+  height: 200px;
+}
+p{
+  font-size: 12px;
+  text-align: justify;
+  
+}
+.paddingHotel{
+  padding: 10px;
+  max-width: 100%;
+}
+.titulo, .footer{
+  text-align: center;
+  padding: 15px 0px;
+  border:2px solid gray;
+  margin-bottom: 10px;
+}
+.footer{
+  margin-top:10px;
+}
