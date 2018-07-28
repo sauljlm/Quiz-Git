@@ -28,6 +28,9 @@ body{
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px
 }
+.campo{
+  display: block;
+}
 .container{
   margin: auto;
 }
@@ -74,6 +77,9 @@ body{
 .galeria2{
   margin-right: 5%;
 }
+.header{
+  width: 100%;
+}
 .hotel{
   width: 100%;
 
@@ -86,6 +92,12 @@ body{
 }
 .info{
   margin: 12px 0px;
+}
+.imgform{
+  width: 60%;
+  position: relative;
+  left: 40%;
+  bottom: 40%;
 }
 .jaco{
   width: 100%;
@@ -108,4 +120,7 @@ p{
 }
 .footer{
   margin-top:10px;
+}
+#formulario{
+  display:block;
 }
